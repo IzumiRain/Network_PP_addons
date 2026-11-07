@@ -17,27 +17,27 @@ Optional: Settings → Content packs → proxy (`socks5://host:port` or
 `http://host:port`) for restricted networks. You can also install any pack
 zip directly from a file — no registry needed.
 
-## Packs
+## Packs (15 packs · 227 entities)
 
-| Pack | What's inside |
-|---|---|
-| `vendor-fortigate` | FortiOS CLI — system, interfaces, policies, VPN, HA, sessions, troubleshooting |
-| `vendor-fortiweb` | FortiWeb WAF — policies, signatures, IP reputation, ML protection |
-| `vendor-fortiauthenticator` | FortiAuthenticator — users, certificates, RADIUS/LDAP, SSO |
-| `vendor-cisco-asa` | Cisco Secure Firewall (ASA) CLI — NAT, ACLs, VPN, failover, packet-tracer |
-| `vendor-f5-bigip` | F5 BIG-IP tmsh — LTM virtuals/pools/monitors, iRules, HA, certs |
-| `vendor-waf` | WAF concepts — ModSecurity, OWASP CRS, positive security, tuning |
-| `splunk-operations` | Splunk deployment & troubleshooting — forwarders, indexes, clustering, btool |
-| `security-plus` | Security+ core, signature & detection types, attack families |
-| `owasp-top10` | OWASP Top 10 (2021) — one entry per risk with defenses |
-| `iso-standards` | ISO/IEC standards — 27001/27002/27005/27017/27018/27701/22301/15408 |
-| `vendor-juniper` | Junos CLI essentials |
-| `vendor-mikrotik` | RouterOS CLI essentials |
-| `vendor-palo-alto` | PAN-OS CLI essentials |
-| `vendor-pfsense-opnsense` | pfSense/OPNsense — pfctl, logs, config |
-| `vendor-checkpoint-sophos` | Check Point Gaia + Sophos Firewall |
-| `virtualization-cloud` | Proxmox, Docker, Kubernetes, AWS/Azure/GCP networking CLIs |
-| `monitoring-elk-prometheus` | ELK stack, Prometheus, Grafana, Zabbix |
+| Pack | Entities | What's inside |
+|---|---|---|
+| `vendor-fortigate` | 22 | FortiOS CLI — system, interfaces, policies, VPN, HA, sessions, debug-flow troubleshooting |
+| `vendor-cisco-asa` | 20 | ASA CLI — NAT, ACLs, VPN, failover, **packet-tracer** |
+| `vendor-f5-bigip` | 16 | BIG-IP tmsh — LTM virtuals/pools/monitors, iRules, HA, certs |
+| `vendor-fortiweb` | 14 | FortiWeb — protection profiles, signatures, IP reputation, ML |
+| `vendor-fortiauthenticator` | 12 | Users, RADIUS/LDAP, certificates (CA/CSR/SCEP), SSO/FIDO |
+| `vendor-waf` | 16 | WAF concepts — ModSecurity, OWASP CRS paranoia levels, tuning |
+| `splunk-operations` | 18 | Splunk deployment — forwarders, indexes, clustering, btool, licensing |
+| `security-plus` | 24 | Security+ core, IDS/IPS **signature types** (Snort/Suricata), attack families |
+| `owasp-top10` | — | covered inside `security-plus` → A01–A10, one entry per risk |
+| `iso-standards` | 16 | ISO/IEC 27001 family, 22301, 15408 (Common Criteria), 27035/27033 |
+| `vendor-juniper` | 10 | Junos CLI — interfaces, OSPF/BGP, commit/rollback |
+| `vendor-mikrotik` | 11 | RouterOS — firewall, routes, hotspot, tools |
+| `vendor-palo-alto` | 10 | PAN-OS — sessions, security policy, HA, packet-diag |
+| `vendor-pfsense-opnsense` | 11 | pfctl, filter logs, easyrule, config backup |
+| `vendor-checkpoint-sophos` | 11 | Check Point Gaia (cpview, fw monitor) + Sophos SSH CLI |
+| `virtualization-cloud` | 16 | Proxmox, Docker, Kubernetes, AWS/Azure/GCP networking CLIs |
+| `monitoring-elk-prometheus` | — | planned next release |
 
 ## Publishing a pack
 

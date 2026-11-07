@@ -3,13 +3,53 @@
   "updated": "2026-11-07",
   "packs": [
     {
+      "id": "iso-standards",
+      "title": "ISO/IEC Standards",
+      "version": "1.0.0",
+      "description": "ISO/IEC standards for IT and security professionals: the 27000 family, business continuity, quality/environment, Common Criteria and IDS selection.",
+      "size": 14599,
+      "sha256": "b7366ef3a3a93034ea19efb8b395689b86147b978bc9c7f7808c3660e84d86cc",
+      "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/iso-standards-1.0.0.zip",
+      "min_app_version": "0.2.0"
+    },
+    {
+      "id": "security-plus",
+      "title": "CompTIA Security+ Core",
+      "version": "1.0.0",
+      "description": "Security+ core knowledge: detection and signature types (Snort/Suricata, IoC/IoA), attack categories, OWASP Top 10 (2021) one per item, and core concepts.",
+      "size": 21283,
+      "sha256": "1ceded3017ad3332ebf5bd07daa9f2b19e3ea34e93854a88275365afd9504385",
+      "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/security-plus-1.0.0.zip",
+      "min_app_version": "0.2.0"
+    },
+    {
+      "id": "splunk-operations",
+      "title": "Splunk Operations",
+      "version": "1.0.0",
+      "description": "Splunk operational knowledge: architecture roles, clustering, config files (inputs/outputs/props/transforms), deployment server, indexes, monitoring console, licensing and troubleshooting.",
+      "size": 16774,
+      "sha256": "4ed64dfc58e8d3d846e32b8b06ffcdd67be2054e4186be4c3c3c5e5933bff612",
+      "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/splunk-operations-1.0.0.zip",
+      "min_app_version": "0.2.0"
+    },
+    {
       "id": "vendor-checkpoint-sophos",
       "title": "Check Point & Sophos",
       "version": "1.0.0",
       "description": "Check Point Gaia clish/Expert-mode commands and Sophos Firewall SSH CLI basics.",
       "size": 7948,
-      "sha256": "62c5c264ff28c322888bf7cf1a7ec9f484cae781deacaeaea4e110187ed38428",
+      "sha256": "3e870eacb983ef75115b8e8e4852128d1b1df3b3788d4532c4a3b8e5687663ad",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-checkpoint-sophos-1.0.0.zip",
+      "min_app_version": "0.2.0"
+    },
+    {
+      "id": "vendor-cisco-asa",
+      "title": "Cisco Secure Firewall (ASA)",
+      "version": "1.0.0",
+      "description": "Cisco ASA/Secure Firewall CLI reference: system, interfaces, NAT, ACLs, VPN, failover, logging, captures and packet-tracer diagnostics.",
+      "size": 16558,
+      "sha256": "4c059c18800ab42fc187bac4f7fee97901bfa7f5f8de05b42f5043d4bd2ac4b2",
+      "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-cisco-asa-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
     {
@@ -18,7 +58,7 @@
       "version": "1.0.0",
       "description": "F5 BIG-IP tmsh reference: LTM virtuals, pools, monitors, iRules, certificates, HA, connections, SNAT and logs.",
       "size": 13084,
-      "sha256": "7ce02d5abce02f64d1dc5a734206f544b8c6f25406737c6b74ab830ed7d3902a",
+      "sha256": "e2667f16e9199975ccbb4209be6f9c9b0d5e39fda7af93253a7581093cf3107d",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-f5-bigip-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -28,7 +68,7 @@
       "version": "1.0.0",
       "description": "FortiAuthenticator identity reference: local users, RADIUS/LDAP services, certificates, SSO/FIDO, REST API and clustering.",
       "size": 11340,
-      "sha256": "df06cd4c637c5ea9c11a03d974bf4a124d90edac479b96a0c7ff4ad71ed28e24",
+      "sha256": "d19a6aac601be9e664d183ac8c2f18929a47247779787612102943076f18a53c",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortiauthenticator-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -38,7 +78,7 @@
       "version": "1.0.0",
       "description": "FortiOS CLI reference: system, interfaces, firewall policies, VPN, HA, sessions and debug-flow troubleshooting.",
       "size": 17571,
-      "sha256": "4727752689994455ac76939df86499f80603e71bfd7b7a74bdb380126cbed20a",
+      "sha256": "14d0ff010750da4cb624468c996f7681d0bd193f50b9f2132d6cba6dd6afe3e7",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortigate-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -48,7 +88,7 @@
       "version": "1.0.0",
       "description": "FortiWeb WAF CLI and concepts: server policies, protection profiles, signatures, IP reputation, geo and DoS protection.",
       "size": 11305,
-      "sha256": "4c15655799f4b574079cfd9547b844690db51376ce6b4dddf464d943cf482958",
+      "sha256": "60a3ee906ff472bb9e7a4a82e9b93391013fd208c2740f7860ab64779ae87033",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortiweb-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -58,7 +98,7 @@
       "version": "1.0.0",
       "description": "Junos OS CLI: interfaces, routing, OSPF/BGP, configuration commit/rollback and diagnostics.",
       "size": 7995,
-      "sha256": "c8fc1658eee2d7bc3fb9c5c18ea4f4846dbdeb34f4e67590c3041e5646e85da5",
+      "sha256": "5e3d36bd6b77c32c24c8eb80f171942a3e25dbc7d1fa440d95d43a80819b993b",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-juniper-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -68,7 +108,7 @@
       "version": "1.0.0",
       "description": "RouterOS CLI: config export/backup, IP, firewall filter, hotspot, interface and diagnostic tools.",
       "size": 8541,
-      "sha256": "2a15d3a2b912e92b67c8a776048b0dc4ff287ccdabb1e30bb24b8720c8f95680",
+      "sha256": "14c546b2816fe5338f7f0b3139ddee001cf14be3d769226fb793dbbacb3f1ec0",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-mikrotik-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -78,7 +118,7 @@
       "version": "1.0.0",
       "description": "PAN-OS operational CLI: system, interfaces, sessions, policy, HA, jobs and dataplane diagnostics.",
       "size": 8595,
-      "sha256": "3443993472a62c17d61058770d7132f67733f4674286bc2a45998f074db03836",
+      "sha256": "bf5ad355a87cf3348171227be391443e43a745f1dee60712d45fd9ecc1f1673a",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-palo-alto-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
@@ -88,8 +128,18 @@
       "version": "1.0.0",
       "description": "pfctl, viconfig, filter logs, easyrule, package handling and config backups on FreeBSD-based firewalls.",
       "size": 8568,
-      "sha256": "56cb26eb4af474d4f12db14e59057d639f775a847a6c86f7fcc8f888e00a5f6f",
+      "sha256": "40af376682c7879c0a2b9c2009044a701bf8da0dda3d42736119c9bf5bdd91c6",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-pfsense-opnsense-1.0.0.zip",
+      "min_app_version": "0.2.0"
+    },
+    {
+      "id": "vendor-waf",
+      "title": "Web Application Firewalls (ModSecurity & OWASP CRS)",
+      "version": "1.0.0",
+      "description": "WAF concepts and ModSecurity/OWASP Core Rule Set knowledge: security models, directives, detection rules, audit logging, false-positive tuning and deployment modes.",
+      "size": 15002,
+      "sha256": "c2ff5bc1d1ca1f27202e7904d0a7793c67c4e18aae92e37b298c4cac9e180fb5",
+      "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-waf-1.0.0.zip",
       "min_app_version": "0.2.0"
     },
     {
@@ -98,7 +148,7 @@
       "version": "1.0.0",
       "description": "Proxmox VE qm/pct, Docker, kubectl and AWS/Azure/GCP networking commands for daily operations.",
       "size": 12047,
-      "sha256": "5599435f65d4ad451159a071fee7ed7fa9c5be6b5b3fb86418efff27baf9be44",
+      "sha256": "69b21fb7dea03d094d59ecdd491914a5328dc7353d6053aa6419be06c7183ff7",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/virtualization-cloud-1.0.0.zip",
       "min_app_version": "0.2.0"
     }
