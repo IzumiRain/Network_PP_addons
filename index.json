@@ -8,7 +8,7 @@
       "version": "1.2.0",
       "description": "ISO/IEC standards for IT and security professionals: the 27000 family, business continuity, quality/environment, Common Criteria and IDS selection.",
       "size": 6752,
-      "sha256": "d2d984bee1c4cf0ff179dcdfa018432e98f67265fe9f017c3e5f4f64b9cdc32b",
+      "sha256": "6efe2c5c93de75d8e1dcfcc00d812da2ced8d9fe2db13e9fc960179c885e10c2",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/iso-standards-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -21,7 +21,7 @@
       "version": "1.2.0",
       "description": "Security+ core knowledge: detection and signature types (Snort/Suricata, IoC/IoA), attack categories, OWASP Top 10 (2021) one per item, and core concepts.",
       "size": 10049,
-      "sha256": "8eaeffe4d67eab093c4c7cf4c2e6ff482c034f3d0f438c4b9e8fab0a31891e4c",
+      "sha256": "4b06e4b999aa4716a314dbb815bc8847b4537ce484281c817bb9d7beab66d3ed",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/security-plus-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -34,7 +34,7 @@
       "version": "1.2.0",
       "description": "Splunk operational knowledge: architecture roles, clustering, config files (inputs/outputs/props/transforms), deployment server, indexes, monitoring console, licensing and troubleshooting.",
       "size": 7372,
-      "sha256": "4d09c0b4f436d352dd5ec968f865810de412b58bef5a8cf437aaaf344c9ec172",
+      "sha256": "cb5ac20feaac8a3ace355bc9363aa211019398df9612eb88be4b4094c91293ee",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/splunk-operations-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -47,7 +47,7 @@
       "version": "1.2.0",
       "description": "Check Point Gaia clish/Expert-mode commands and Sophos Firewall SSH CLI basics.",
       "size": 3885,
-      "sha256": "140ddad77c63dadf2eb8b1fdf9715b432804d0c2ee8e2ee1cd2927c58df900e7",
+      "sha256": "fdc33a6f721198ab94885e2bc5b0498dbd8ba9aa3c72831115062f1d929dbf33",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-checkpoint-sophos-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -61,7 +61,7 @@
       "version": "1.2.0",
       "description": "Cisco ASA/Secure Firewall CLI reference: system, interfaces, NAT, ACLs, VPN, failover, logging, captures and packet-tracer diagnostics.",
       "size": 6524,
-      "sha256": "112a985f3cf317fb1bed991e5471b8b025702ecd16f66c6cb87a104f6b9d665a",
+      "sha256": "5c0398a2e784a9a7483329ac4ea20750b5b5dee82ad8753dc806e4198b18338c",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-cisco-asa-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -74,7 +74,7 @@
       "version": "1.2.0",
       "description": "F5 BIG-IP tmsh reference: LTM virtuals, pools, monitors, iRules, certificates, HA, connections, SNAT and logs.",
       "size": 4989,
-      "sha256": "8718cbdde83074c7b15f61b820f2eeae14b25018abd24382091ecf0b4bdb0ad6",
+      "sha256": "65ea1d5f9db81db10f3917a4e351505dabdc4209ee1c4cb4a5f0a7e277ad1f93",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-f5-bigip-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -87,7 +87,7 @@
       "version": "1.2.0",
       "description": "FortiAuthenticator identity reference: local users, RADIUS/LDAP services, certificates, SSO/FIDO, REST API and clustering.",
       "size": 4942,
-      "sha256": "5cf1abc89c5a45f5463d7949b722367eaf16f7c490a8a6d58349695ff812ba4a",
+      "sha256": "04cb888dd92aae5a4a9aaccc6b53ce47e9933811becd81937241c12a452fda8f",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortiauthenticator-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -100,7 +100,7 @@
       "version": "1.2.0",
       "description": "FortiOS CLI reference: system, interfaces, firewall policies, VPN, HA, sessions and debug-flow troubleshooting.",
       "size": 6768,
-      "sha256": "88e91addb4dfd6e7831cc93e7420d22e157863ebf65aaff96bf6e62387c0fc93",
+      "sha256": "247532f8ab9a567462f4038f834158c9f4be24f19cce12af9b61468ca3a65846",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortigate-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -113,7 +113,7 @@
       "version": "1.2.0",
       "description": "FortiWeb WAF CLI and concepts: server policies, protection profiles, signatures, IP reputation, geo and DoS protection.",
       "size": 4494,
-      "sha256": "d333efbcc07f37e9429cbf5f626c436474cafba1de626a7ead0734736de9552b",
+      "sha256": "dfdd6a75b052c1b8ca2af15e6da1772118732304b665b7e89d985625552c5c10",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-fortiweb-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -126,7 +126,7 @@
       "version": "1.2.0",
       "description": "Junos OS CLI: interfaces, routing, OSPF/BGP, configuration commit/rollback and diagnostics.",
       "size": 3347,
-      "sha256": "d138142f9a138807216d1191676517c370c4d790c0002a4fb286dd7937aa93f7",
+      "sha256": "2c009e9c4ae8ea2272a1f680bbbac03154ba506789de98d024ad3dc46bd666dd",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-juniper-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -139,7 +139,7 @@
       "version": "1.2.0",
       "description": "RouterOS CLI: config export/backup, IP, firewall filter, hotspot, interface and diagnostic tools.",
       "size": 3420,
-      "sha256": "0de574ffc9972ff053c4fdbd89f0a4de1e90f51d598f49f4ce66880ac35733f5",
+      "sha256": "9e6820dba03a26ff468852feea0972615b37958123560e801fff1fb02286e299",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-mikrotik-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -152,7 +152,7 @@
       "version": "1.2.0",
       "description": "PAN-OS operational CLI: system, interfaces, sessions, policy, HA, jobs and dataplane diagnostics.",
       "size": 3260,
-      "sha256": "ae4c8d5f1a9eeb1edcf5f1cea472725ba816511a35d543c9db2edd4ab4f38a69",
+      "sha256": "f7fea10ffc688fc791ab6e45b2b8578d6de86ca1b09b249499261266e9355378",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-palo-alto-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -165,7 +165,7 @@
       "version": "1.2.0",
       "description": "pfctl, viconfig, filter logs, easyrule, package handling and config backups on FreeBSD-based firewalls.",
       "size": 4001,
-      "sha256": "5580ef54bc761d9d7f8ad784c315ba5171fcef4fb743848b8d0c6d57245babe9",
+      "sha256": "ece223a91298807645ac89eb58ca2b5f591bfa3ae48d044807edda57b7f2236a",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-pfsense-opnsense-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -178,7 +178,7 @@
       "version": "1.2.0",
       "description": "WAF concepts and ModSecurity/OWASP Core Rule Set knowledge: security models, directives, detection rules, audit logging, false-positive tuning and deployment modes.",
       "size": 7587,
-      "sha256": "0e80d97682d97b4fe4034d35d4c8127fecf52df0e27953425935c4c6e665ad8f",
+      "sha256": "fb9c53dc9fcdb26ca635e359f86c9cbf6e1789cb4aa23e124bfa5efcaa369201",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/vendor-waf-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
@@ -191,7 +191,7 @@
       "version": "1.2.0",
       "description": "Proxmox VE qm/pct, Docker, kubectl and AWS/Azure/GCP networking commands for daily operations.",
       "size": 7653,
-      "sha256": "a73ea1318d56ebb9251a9b1a2628cb973ebd91081f02dd934da6398a94c274b5",
+      "sha256": "72a319378dd4165aeb69842744a40e4f22f0f565ac1bb34d0d8779552509f8a0",
       "url": "https://raw.githubusercontent.com/IzumiRain/Network_PP_addons/main/packs/virtualization-cloud-1.2.0.zip",
       "min_app_version": "0.2.0",
       "categories": [
