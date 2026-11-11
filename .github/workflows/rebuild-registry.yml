@@ -1,0 +1,63 @@
+# Rebuilds the pack registry (zips + index.json) from the matching branch of
+# IzumiRain/Network_PP (addons-src/**), so binary pack zips land on this
+# branch without manual uploads. Runs on pushes to the dev branch and on
+# manual dispatch.
+name: rebuild-registry
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["dev/data-driven-model-docs"]
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout addons (this repo)
+        uses: actions/checkout@v4
+        with:
+          ref: dev/data-driven-model-docs
+
+      - name: Checkout Network_PP (matching branch)
+        uses: actions/checkout@v4
+        with:
+          repository: IzumiRain/Network_PP
+          ref: dev/data-driven-model-docs
+          path: _npp
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install zip CLI
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: Build registry from Network_PP addons-src
+        working-directory: _npp
+        run: node scripts/build_registry.mjs
+
+      - name: Publish zips + index.json to this repo
+        run: |
+          mkdir -p packs
+          # Remove zips that are no longer produced (old versions / dropped packs)
+          for f in packs/*.zip; do
+            [ -e "$f" ] || continue
+            base="$(basename "$f")"
+            [ -f "_npp/addons-registry/packs/$base" ] || git rm -q "$f"
+          done
+          cp _npp/addons-registry/packs/*.zip packs/
+          cp _npp/addons-registry/index.json index.json
+          rm -rf _npp
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packs index.json
+          if git diff --cached --quiet; then
+            echo "registry already up to date"
+          else
+            git commit -m "registry: rebuild pack zips + index.json from Network_PP addons-src [skip ci]"
+            git push origin dev/data-driven-model-docs
+          fi
